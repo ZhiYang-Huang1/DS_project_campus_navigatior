@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/university_map.jpg</file>
+        <file>images/menu.jpg</file>
+    </qresource>
+</RCC>
