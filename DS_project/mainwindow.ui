@@ -55,8 +55,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>150</y>
+      <x>400</x>
+      <y>180</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -80,14 +80,14 @@ QPushButton:pressed {
 </string>
     </property>
     <property name="text">
-     <string/>
+     <string>1</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>130</y>
+      <x>470</x>
+      <y>110</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -117,8 +117,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_17">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>280</y>
+      <x>370</x>
+      <y>270</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -148,8 +148,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_18">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>220</y>
+      <x>240</x>
+      <y>200</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -173,14 +173,14 @@ QPushButton:pressed {
 </string>
     </property>
     <property name="text">
-     <string/>
+     <string>2</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_19">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>310</y>
+      <x>360</x>
+      <y>330</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -210,39 +210,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_20">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>390</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-    background-color: red;       /* 背景颜色为红色 */
-    color: white;                /* 文字颜色为白色 */
-    border-radius: 10px;         /* 圆形效果，半径为宽/高的一半 */
-    min-width: 5px;             /* 设置最小宽度，确保按钮大小为圆形 */
-    min-height: 5px;            /* 设置最小高度，确保按钮大小为圆形 */
-}
-
-QPushButton:hover {
-    background-color: darkred;   /* 悬停时变为深红色 */
-}
-
-QPushButton:pressed {
-    background-color: lightcoral; /* 按下时变为浅红色 */
-}
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_21">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>390</y>
+      <x>380</x>
+      <y>400</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -303,8 +272,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_23">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>500</y>
+      <x>550</x>
+      <y>520</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -334,7 +303,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_24">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>570</x>
       <y>440</y>
       <width>21</width>
       <height>21</height>
@@ -365,8 +334,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_25">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>550</y>
+      <x>720</x>
+      <y>510</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -396,8 +365,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_26">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>320</y>
+      <x>490</x>
+      <y>370</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -427,8 +396,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_27">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>320</y>
+      <x>600</x>
+      <y>310</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -458,7 +427,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_28">
     <property name="geometry">
      <rect>
-      <x>810</x>
+      <x>780</x>
       <y>460</y>
       <width>21</width>
       <height>21</height>
@@ -489,8 +458,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_29">
     <property name="geometry">
      <rect>
-      <x>710</x>
-      <y>630</y>
+      <x>740</x>
+      <y>620</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -520,7 +489,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_30">
     <property name="geometry">
      <rect>
-      <x>910</x>
+      <x>900</x>
       <y>500</y>
       <width>21</width>
       <height>21</height>
@@ -551,7 +520,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_31">
     <property name="geometry">
      <rect>
-      <x>1300</x>
+      <x>1350</x>
       <y>610</y>
       <width>21</width>
       <height>21</height>
@@ -582,8 +551,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_32">
     <property name="geometry">
      <rect>
-      <x>1350</x>
-      <y>550</y>
+      <x>1390</x>
+      <y>520</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -613,8 +582,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_33">
     <property name="geometry">
      <rect>
-      <x>1450</x>
-      <y>600</y>
+      <x>1490</x>
+      <y>570</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -644,8 +613,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_34">
     <property name="geometry">
      <rect>
-      <x>1510</x>
-      <y>500</y>
+      <x>1520</x>
+      <y>440</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -707,7 +676,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1800</x>
-      <y>460</y>
+      <y>480</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -738,7 +707,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1810</x>
-      <y>520</y>
+      <y>560</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -769,7 +738,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1890</x>
-      <y>500</y>
+      <y>430</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -799,39 +768,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_39">
     <property name="geometry">
      <rect>
-      <x>1890</x>
-      <y>610</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-    background-color: red;       /* 背景颜色为红色 */
-    color: white;                /* 文字颜色为白色 */
-    border-radius: 10px;         /* 圆形效果，半径为宽/高的一半 */
-    min-width: 5px;             /* 设置最小宽度，确保按钮大小为圆形 */
-    min-height: 5px;            /* 设置最小高度，确保按钮大小为圆形 */
-}
-
-QPushButton:hover {
-    background-color: darkred;   /* 悬停时变为深红色 */
-}
-
-QPushButton:pressed {
-    background-color: lightcoral; /* 按下时变为浅红色 */
-}
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_40">
-    <property name="geometry">
-     <rect>
-      <x>1810</x>
-      <y>600</y>
+      <x>1930</x>
+      <y>560</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -862,7 +800,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1680</x>
-      <y>600</y>
+      <y>570</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -892,7 +830,7 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_42">
     <property name="geometry">
      <rect>
-      <x>1400</x>
+      <x>1430</x>
       <y>450</y>
       <width>21</width>
       <height>21</height>
@@ -923,8 +861,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_43">
     <property name="geometry">
      <rect>
-      <x>1500</x>
-      <y>260</y>
+      <x>1520</x>
+      <y>290</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -954,8 +892,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_44">
     <property name="geometry">
      <rect>
-      <x>1610</x>
-      <y>300</y>
+      <x>1590</x>
+      <y>340</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -986,7 +924,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1510</x>
-      <y>190</y>
+      <y>180</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1016,8 +954,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_46">
     <property name="geometry">
      <rect>
-      <x>1650</x>
-      <y>150</y>
+      <x>1660</x>
+      <y>200</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1047,8 +985,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_47">
     <property name="geometry">
      <rect>
-      <x>1780</x>
-      <y>160</y>
+      <x>1790</x>
+      <y>200</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1078,8 +1016,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_48">
     <property name="geometry">
      <rect>
-      <x>1720</x>
-      <y>290</y>
+      <x>1670</x>
+      <y>340</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1110,7 +1048,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1810</x>
-      <y>290</y>
+      <y>350</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1140,8 +1078,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_50">
     <property name="geometry">
      <rect>
-      <x>1890</x>
-      <y>300</y>
+      <x>1900</x>
+      <y>370</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1202,8 +1140,39 @@ QPushButton:pressed {
    <widget class="QPushButton" name="pushButton_52">
     <property name="geometry">
      <rect>
-      <x>750</x>
+      <x>740</x>
       <y>320</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: red;       /* 背景颜色为红色 */
+    color: white;                /* 文字颜色为白色 */
+    border-radius: 10px;         /* 圆形效果，半径为宽/高的一半 */
+    min-width: 5px;             /* 设置最小宽度，确保按钮大小为圆形 */
+    min-height: 5px;            /* 设置最小高度，确保按钮大小为圆形 */
+}
+
+QPushButton:hover {
+    background-color: darkred;   /* 悬停时变为深红色 */
+}
+
+QPushButton:pressed {
+    background-color: lightcoral; /* 按下时变为浅红色 */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_54">
+    <property name="geometry">
+     <rect>
+      <x>1720</x>
+      <y>80</y>
       <width>21</width>
       <height>21</height>
      </rect>
