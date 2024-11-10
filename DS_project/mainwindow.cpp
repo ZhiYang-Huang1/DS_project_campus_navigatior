@@ -622,3 +622,9 @@ void MainWindow::on_btn33_clicked()
     infoWindow->exec();
 }
 
+
+void MainWindow::on_ExitBtn_clicked()
+{
+    this->close();
+}
+

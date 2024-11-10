@@ -95,6 +95,8 @@ private slots:
 
     void on_btn33_clicked();
 
+    void on_ExitBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
 
