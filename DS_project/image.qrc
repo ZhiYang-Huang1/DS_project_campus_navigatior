@@ -3,5 +3,13 @@
         <file>image/daxuecheng.jpg</file>
         <file>image/dxc.jpg</file>
         <file>image/gj.jpg</file>
+        <file>image/dxc_intro.jpg</file>
+        <file>image/xiaohui.jpg</file>
+        <file>image/yuanhui.jpg</file>
+        <file>image/close-line.svg</file>
+        <file>image/route-line.svg</file>
+        <file>image/school-line.svg</file>
+        <file>image/search-line.svg</file>
+        <file>image/gj_intro.jpg</file>
     </qresource>
 </RCC>

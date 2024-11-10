@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>2400</width>
+    <width>2250</width>
     <height>1200</height>
    </rect>
   </property>
@@ -23,9 +23,9 @@
    <widget class="QLabel" name="dxc_map">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>0</y>
-      <width>1031</width>
+      <x>0</x>
+      <y>200</y>
+      <width>1051</width>
       <height>711</height>
      </rect>
     </property>
@@ -40,7 +40,7 @@
     <property name="geometry">
      <rect>
       <x>1050</x>
-      <y>0</y>
+      <y>200</y>
       <width>921</width>
       <height>711</height>
      </rect>
@@ -56,7 +56,7 @@
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>170</y>
+      <y>370</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -87,7 +87,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>110</y>
+      <y>310</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -118,7 +118,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>270</y>
+      <y>470</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -149,7 +149,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>210</y>
+      <y>410</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -180,7 +180,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>330</y>
+      <y>530</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -211,7 +211,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>400</y>
+      <y>600</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -242,7 +242,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>810</x>
-      <y>190</y>
+      <y>390</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -273,7 +273,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>520</y>
+      <y>720</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -304,7 +304,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>440</y>
+      <y>640</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -335,7 +335,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>720</x>
-      <y>510</y>
+      <y>710</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -366,7 +366,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>490</x>
-      <y>370</y>
+      <y>570</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -397,7 +397,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>600</x>
-      <y>310</y>
+      <y>510</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -428,7 +428,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>780</x>
-      <y>460</y>
+      <y>660</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -459,7 +459,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>740</x>
-      <y>620</y>
+      <y>820</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -490,7 +490,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>900</x>
-      <y>500</y>
+      <y>700</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -521,7 +521,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1350</x>
-      <y>610</y>
+      <y>810</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -552,7 +552,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1380</x>
-      <y>490</y>
+      <y>690</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -583,7 +583,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1490</x>
-      <y>570</y>
+      <y>770</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -614,7 +614,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1520</x>
-      <y>440</y>
+      <y>640</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -645,7 +645,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1680</x>
-      <y>490</y>
+      <y>690</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -676,7 +676,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1800</x>
-      <y>480</y>
+      <y>680</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -707,7 +707,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1810</x>
-      <y>560</y>
+      <y>760</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -738,7 +738,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1890</x>
-      <y>430</y>
+      <y>630</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -769,7 +769,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1920</x>
-      <y>580</y>
+      <y>780</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -800,7 +800,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1680</x>
-      <y>570</y>
+      <y>770</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -831,7 +831,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1520</x>
-      <y>290</y>
+      <y>490</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -861,8 +861,8 @@ QPushButton:pressed {
    <widget class="QPushButton" name="btn24">
     <property name="geometry">
      <rect>
-      <x>1590</x>
-      <y>340</y>
+      <x>1620</x>
+      <y>520</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -893,7 +893,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1660</x>
-      <y>200</y>
+      <y>400</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -924,7 +924,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1790</x>
-      <y>200</y>
+      <y>400</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -955,7 +955,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1700</x>
-      <y>350</y>
+      <y>550</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -986,7 +986,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1810</x>
-      <y>350</y>
+      <y>550</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1017,7 +1017,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>1900</x>
-      <y>370</y>
+      <y>570</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1048,7 +1048,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>740</x>
-      <y>320</y>
+      <y>520</y>
       <width>21</width>
       <height>21</height>
      </rect>
@@ -1078,23 +1078,346 @@ QPushButton:pressed {
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>1980</x>
-      <y>10</y>
-      <width>401</width>
-      <height>701</height>
+      <x>1970</x>
+      <y>0</y>
+      <width>281</width>
+      <height>571</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/dxc_intro.jpg);</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1970</x>
+      <y>560</y>
+      <width>281</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/gj_intro.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="departureEdit">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>1090</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>960</y>
+      <width>551</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchRouteBtn">
+    <property name="geometry">
+     <rect>
+      <x>1450</x>
+      <y>950</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+padding-left: 2px;
+background-repeat: no-repeat;
+background-position: top;
+background-image: url(:/new/prefix1/image/route-line.svg);
+text-align:bottom;
+padding-bottom: 2px;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>查询可选路径</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="seachShortestBtn">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>1070</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+padding-left: 2px;
+background-repeat: no-repeat;
+background-position: top;
+
+text-align:bottom;
+background-image: url(:/new/prefix1/image/search-line.svg);
+padding-bottom: 2px;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>查询最短路径</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CB_departure">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>980</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="destinationEdit">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>1090</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="CB_destination">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>980</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>940</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>请选择出发校区</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>940</y>
+      <width>151</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>请选择目的校区</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CampusIntroBtn">
+    <property name="geometry">
+     <rect>
+      <x>1720</x>
+      <y>950</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+padding-left: 2px;
+background-repeat: no-repeat;
+background-position: top;
+
+text-align:bottom;
+background-image: url(:/new/prefix1/image/school-line.svg);
+padding-bottom: 2px;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>学校简介</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ExitBtn">
+    <property name="geometry">
+     <rect>
+      <x>1720</x>
+      <y>1070</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+padding-left: 2px;
+background-repeat: no-repeat;
+background-position: top;
+
+text-align:bottom;
+background-image: url(:/new/prefix1/image/close-line.svg);
+padding-bottom: 2px;
+border:none;</string>
+    </property>
+    <property name="text">
+     <string>退出系统</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1971</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>201</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/yuanhui.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>201</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/new/prefix1/image/xiaohui.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>40</y>
+      <width>1371</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;黑体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Campus Guide Consultation System</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background1_2">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>910</y>
+      <width>2261</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>background1_2</zorder>
+   <zorder>background1</zorder>
+   <zorder>gj_map</zorder>
+   <zorder>dxc_map</zorder>
+   <zorder>btn1</zorder>
+   <zorder>btn3</zorder>
+   <zorder>btn4</zorder>
+   <zorder>btn2</zorder>
+   <zorder>btn5</zorder>
+   <zorder>btn6</zorder>
+   <zorder>btn12</zorder>
+   <zorder>btn8</zorder>
+   <zorder>btn9</zorder>
+   <zorder>btn14</zorder>
+   <zorder>btn7</zorder>
+   <zorder>btn10</zorder>
+   <zorder>btn13</zorder>
+   <zorder>btn15</zorder>
+   <zorder>btn16</zorder>
+   <zorder>btn18</zorder>
+   <zorder>btn17</zorder>
+   <zorder>btn19</zorder>
+   <zorder>btn20</zorder>
+   <zorder>btn22</zorder>
+   <zorder>btn30</zorder>
+   <zorder>btn31</zorder>
+   <zorder>btn32</zorder>
+   <zorder>btn33</zorder>
+   <zorder>btn21</zorder>
+   <zorder>btn23</zorder>
+   <zorder>btn24</zorder>
+   <zorder>btn26</zorder>
+   <zorder>btn27</zorder>
+   <zorder>btn25</zorder>
+   <zorder>btn28</zorder>
+   <zorder>btn29</zorder>
+   <zorder>btn11</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>departureEdit</zorder>
+   <zorder>textBrowser_2</zorder>
+   <zorder>searchRouteBtn</zorder>
+   <zorder>seachShortestBtn</zorder>
+   <zorder>CB_departure</zorder>
+   <zorder>destinationEdit</zorder>
+   <zorder>CB_destination</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>CampusIntroBtn</zorder>
+   <zorder>ExitBtn</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_5</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>2400</width>
+     <width>2250</width>
      <height>18</height>
     </rect>
    </property>
