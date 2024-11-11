@@ -17,7 +17,7 @@ Date:           2020.12.17
 #include <QMouseEvent>
 #include <QCloseEvent>
 #include <QDialog>
-#include <QRegExpValidator>
+#include <QRegularExpressionValidator>
 #include <QDebug>
 
 #define Infinity 2000
@@ -44,8 +44,8 @@ MainWindow::MainWindow(QWidget *parent)
     campus = initgraph();
 
     /* 使用正则表达式，限制用户输入 */
-    QRegExp regx("\\d{2}");
-    QValidator* validator = new QRegExpValidator(regx, this);
+    QRegularExpression regx("\\d{2}");
+    QValidator* validator = new QRegularExpressionValidator(regx, this);
 
     ui->setupUi(this);
     ui->lineEdit->setValidator(validator);
@@ -93,7 +93,6 @@ void MainWindow::paintEvent(QPaintEvent *event)
     painter.drawPixmap(target1, menu);              // 绘制menu
     painter.drawPixmap(target2, umap);              // 绘制umap
 }
-
 
 /**
  * @brief 鼠标左击事件，判断鼠标全局位置，弹出相应子窗口
@@ -416,6 +415,7 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
         }
     }
 }
+
 
 
 /**

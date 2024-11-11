@@ -16,6 +16,7 @@ SOURCES += \
 HEADERS += \
     info_dialog.h \
     mainwindow.h
+    mystruct.h
 
 FORMS += \
     info_dialog.ui \

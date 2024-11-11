@@ -1,13 +1,16 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "mystruct.h"
+
 #include <QMainWindow>
 #include <QPainter>
 #include <QMessageBox>
 #include <QMouseEvent>
 #include <QCloseEvent>
 #include <QDialog>
-#include <QRegExpValidator>
+//#include <QRegExpValidator>
+#include <QRegularExpressionValidator>
 #include <QDebug>
 
 QT_BEGIN_NAMESPACE
@@ -96,6 +99,17 @@ private slots:
     void on_btn33_clicked();
 
     void on_ExitBtn_clicked();
+
+    void on_CampusIntroBtn_clicked();
+
+    void on_searchRouteBtn_clicked();
+
+    void on_seachShortestBtn_clicked();
+
+    void path(mgraph c,int m,int n,int k);
+    void allpath(mgraph c, int start, int end);
+    void shortdistance(mgraph c, int start, int end);
+    void floyd(mgraph c);
 
 private:
     Ui::MainWindow *ui;
