@@ -709,52 +709,114 @@ mgraph initgraph()
     }
 
     /* 依次输入顶点信息 */
-    strcpy(c.vexs[1].name,"");
-    strcpy(c.vexs[2].name,"");
-    strcpy(c.vexs[3].name,"");
-    strcpy(c.vexs[4].name,"");
-    strcpy(c.vexs[5].name,"");
-    strcpy(c.vexs[6].name,"");
-    strcpy(c.vexs[7].name,"");
-    strcpy(c.vexs[8].name,"");
-    strcpy(c.vexs[9].name,"");
-    strcpy(c.vexs[10].name,"");
-    strcpy(c.vexs[11].name,"");
-    strcpy(c.vexs[12].name,"");
-    strcpy(c.vexs[13].name,"");
-    strcpy(c.vexs[14].name,"");
-    strcpy(c.vexs[15].name,"");
-    strcpy(c.vexs[16].name,"");
-    strcpy(c.vexs[17].name,"");
-    strcpy(c.vexs[18].name,"");
-    strcpy(c.vexs[19].name,"");
-    strcpy(c.vexs[20].name,"");
-    strcpy(c.vexs[21].name,"");
-    strcpy(c.vexs[22].name,"");
-strcpy(c.vexs[23].name,"");
-    strcpy(c.vexs[24].name,"");
-    strcpy(c.vexs[25].name,"");
-    strcpy(c.vexs[26].name,"");
-    strcpy(c.vexs[27].name,"");
-    strcpy(c.vexs[28].name,"");
-    strcpy(c.vexs[29].name,"");
-    strcpy(c.vexs[30].name,"");
-    strcpy(c.vexs[31].name,"");
-    strcpy(c.vexs[32].name,"");
-    strcpy(c.vexs[33].name,"");
+    strcpy(c.vexs[1].name,"C12到C17");
+    strcpy(c.vexs[2].name,"C9到C11");
+    strcpy(c.vexs[3].name,"第二食堂、医疗保健中心");
+    strcpy(c.vexs[4].name,"生活区运动场、第一食堂");
+    strcpy(c.vexs[5].name,"超市、C6到C8");
+    strcpy(c.vexs[6].name,"教师公寓、C1到C5");
+    strcpy(c.vexs[7].name,"体育馆、游泳馆、网球场");
+    strcpy(c.vexs[8].name,"教学区运动场、网球场");
+    strcpy(c.vexs[9].name,"图书馆、音乐厅");
+    strcpy(c.vexs[10].name,"A1到A5教学楼");
+    strcpy(c.vexs[11].name,"B9到B11");
+    strcpy(c.vexs[12].name,"情人岛");
+    strcpy(c.vexs[13].name,"B3、B5、B7、学术报告厅");
+    strcpy(c.vexs[14].name,"B4、B6、B8");
+    strcpy(c.vexs[15].name,"B2、B12");
+    strcpy(c.vexs[16].name,"B1");
+    strcpy(c.vexs[17].name,"A3运动场");
+    strcpy(c.vexs[18].name,"A1公交站");
+    strcpy(c.vexs[19].name,"B1、C1");
+    strcpy(c.vexs[20].name,"B2、C2、C3");
+    strcpy(c.vexs[21].name,"D1、E1");
+    strcpy(c.vexs[22].name,"D3、E3、D2、E2");
+    strcpy(c.vexs[23].name,"A4、A5");
+    strcpy(c.vexs[24].name,"D5");
+    strcpy(c.vexs[25].name,"E5");
+    strcpy(c.vexs[26].name,"D6");
+    strcpy(c.vexs[27].name,"F6、附属幼儿园");
+    strcpy(c.vexs[28].name,"F5书院区");
+    strcpy(c.vexs[29].name,"G5");
+    strcpy(c.vexs[30].name,"F2、F3");
+    strcpy(c.vexs[31].name,"F1");
+    strcpy(c.vexs[32].name,"G2、G3");
+    strcpy(c.vexs[33].name,"G1");
 
     for (i=1; i<=key; i++) {
         for (j=1;j<=key;j++) {
             c.arcs[i][j].adj=Infinity;  // 先初始化图的邻接矩阵
         }
 
-        c.arcs[1][2].adj=30;c.arcs[1][4].adj=30;c.arcs[1][19].adj=35;c.arcs[2][5].adj=5;c.arcs[3][5].adj=10;
-        c.arcs[3][4].adj=10;c.arcs[3][11].adj=10;c.arcs[4][6].adj=15;c.arcs[5][12].adj=30;c.arcs[6][7].adj=55;
-        c.arcs[6][15].adj=30;c.arcs[6][18].adj=15;c.arcs[6][22].adj=60;c.arcs[7][8].adj=30;c.arcs[7][13].adj=35;
-        c.arcs[7][22].adj=40;c.arcs[8][13].adj=40;c.arcs[8][15].adj=35;c.arcs[8][20].adj=30;c.arcs[9][10].adj=20;
-        c.arcs[9][13].adj=45;c.arcs[9][20].adj=60;c.arcs[10][17].adj=70;c.arcs[11][14].adj=10;c.arcs[12][20].adj=45;
-        c.arcs[13][17].adj=35;c.arcs[14][15].adj=10;c.arcs[16][18].adj=10;c.arcs[16][19].adj=15;c.arcs[17][21].adj=55;
-        c.arcs[21][22].adj=50;
+        c.arcs[1][3].adj=560;
+            c.arcs[1][2].adj=578;
+        c.arcs[1][4].adj=573;
+            c.arcs[2][4].adj=400;
+        c.arcs[2][5].adj=496;
+        c.arcs[3][4].adj=894;
+        c.arcs[3][10].adj=1460;
+        c.arcs[4][5].adj=257;
+        c.arcs[5][6].adj=263;
+        c.arcs[5][7].adj=636;
+        c.arcs[6][7].adj=500;
+        c.arcs[7][10].adj=428;
+        c.arcs[7][8].adj=789;
+        c.arcs[7][9].adj=447;
+        c.arcs[8][9].adj=586;
+        c.arcs[8][15].adj=808;
+        c.arcs[8][14].adj=756;
+        c.arcs[9][10].adj=917;
+        c.arcs[9][13].adj=973;
+        c.arcs[9][14].adj=747;
+        c.arcs[10][11].adj=631;
+        c.arcs[10][12].adj=918;
+        c.arcs[10][13].adj=973;
+        c.arcs[11][12].adj=800;
+        c.arcs[11][13].adj=764;
+        c.arcs[13][14].adj=333;
+        c.arcs[13][15].adj=934;
+        c.arcs[13][16].adj=359;
+        c.arcs[14][15].adj=626;
+        c.arcs[14][16].adj=632;
+            c.arcs[15][16].adj=1170;
+        //////////////////////////////////
+                    c.arcs[9][18].adj=3900;
+        /////////////////////////////////////
+        c.arcs[17][18].adj=335;
+        c.arcs[17][19].adj=551;
+        c.arcs[17][20].adj=445;
+        c.arcs[17][23].adj=417;
+        c.arcs[18][19].adj=423;
+        c.arcs[19][20].adj=379;
+        c.arcs[19][21].adj=456;
+        c.arcs[20][21].adj=527;
+        c.arcs[20][22].adj=342;
+        c.arcs[20][23].adj=376;
+        c.arcs[21][22].adj=282;
+        c.arcs[21][30].adj=670;
+            c.arcs[21][31].adj=510;
+        c.arcs[22][30].adj=428;
+            c.arcs[22][31].adj=562;
+                c.arcs[22][24].adj=466;
+            c.arcs[22][25].adj=407;
+            c.arcs[22][28].adj=529;
+            c.arcs[23][24].adj=471;
+            c.arcs[23][26].adj=595;
+            c.arcs[24][25].adj=370;
+            c.arcs[24][26].adj=383;
+            c.arcs[25][26].adj=394;
+            c.arcs[25][27].adj=354;
+            c.arcs[25][28].adj=311;
+            c.arcs[26][27].adj=416;
+            c.arcs[27][28].adj=483;
+            c.arcs[28][29].adj=292;
+            c.arcs[28][30].adj=172;
+            c.arcs[29][32].adj=191;
+    c.arcs[30][31].adj=148;
+    c.arcs[30][32].adj=283;
+    c.arcs[31][33].adj=369;
+    c.arcs[32][33].adj=441;
+
     }
 
     /* 邻接矩阵是对称矩阵，对称赋值(无向图需要对称赋值) */

@@ -11,7 +11,7 @@ Date:           2020.12.17
 
 #include <QMetaType>
 
-#define MaxVertexNum 23
+#define MaxVertexNum 34
 
 /* 边的权值信息 */
 typedef struct arcell
