@@ -11,7 +11,7 @@
 #include <QRegularExpressionValidator>
 #include <QDebug>
 
-#define Infinity 2000
+#define Infinity 20000
 #define MAX 40
 #define key 33
 
@@ -864,7 +864,7 @@ void MainWindow::path(mgraph c, int m, int n, int k)
             length = length+c.arcs[d[s]][d[s+1]].adj;
         }
 
-        if (length <= 250) {        // 打印路径长度小于定长的路径
+        if (length <= 2000) {        // 打印路径长度小于定长的路径
             for (s=0; s<k; s++) {   // 输出该路径。s=0时为起点m
                 transtring.append(QString::number(c.vexs[d[s]].position) + "-->");
             }
