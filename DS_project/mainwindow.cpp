@@ -13,7 +13,7 @@
 
 #define Infinity 2000
 #define MAX 40
-#define key 22
+#define key 33
 
 mgraph initgraph();
 int locatevex(mgraph c,int v);
@@ -206,9 +206,9 @@ void MainWindow::on_btn7_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("体育馆："
-                            "游泳馆："
-                            "网球馆："));    // 设置介绍文字
+    textBrowser->setText(tr("体育馆：内含多种运动设施。"
+                            "游泳馆：供同学们游泳的场所。"
+                            "网球馆：供同学们打网球的场所"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -278,7 +278,9 @@ void MainWindow::on_btn11_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("B9到B11教学楼："));    // 设置介绍文字
+    textBrowser->setText(tr("B9 新闻与传播学院、法学院。"
+                            "B10 经济与金融学院、电子商务系、旅游管理系。"
+                            "B11 设计学院、艺术学院。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -295,7 +297,7 @@ void MainWindow::on_btn12_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("情人岛："));    // 设置介绍文字
+    textBrowser->setText(tr("情人岛：一个风景优美的胜地。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -333,8 +335,8 @@ void MainWindow::on_btn14_clicked()
     label->setPixmap(*img);
         // 设置介绍图片
     textBrowser->setText(tr("B4:广州市行业工程技术研究中心 水资源与水环境、华南理工大学环境科学与工程学院、教育部重点实验室 工业聚集区污染控制与生态修复、广东省高等学校重点实验室 污染控制与生态修复、环境科学与工程 广东省一级重点学科、华南理工大学粤海水技术研究中心、中国环境科学学会 挥发性有机物污染防治专业委员会、博士后科研流动站 环境科学与工程、广东省科学技术厅 国际科技合作基地。"
-                            "B6:"
-                            "B8:"));    // 设置介绍文字
+                            "B6:广东省发酵与酶工程重点实验室、工业生物技术 广东普通高校重点实验室、深圳华大基因研究院 华南理工大学 生命科学创新学院、华南理工大学生物科学与工程学院。"
+                            "B8:华南理工大学软件学院实训中心、广东省实验教学示范中心 化学化工教学实验中心、南校区化学化工教学实验中心、华南理工大学软件学院国家级软件人才培养模式创新实验区、华南理工大学软件和动漫人才培训中心。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -387,7 +389,7 @@ void MainWindow::on_btn17_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("A3运动场"));    // 设置介绍文字
+    textBrowser->setText(tr("A3运动场。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -404,7 +406,7 @@ void MainWindow::on_btn18_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("A1公交站"));    // 设置介绍文字
+    textBrowser->setText(tr("A1公交站。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -421,7 +423,7 @@ void MainWindow::on_btn19_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("B1,C1"));    // 设置介绍文字
+    textBrowser->setText(tr("B1,C1。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -438,7 +440,7 @@ void MainWindow::on_btn20_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("B2运动场"));    // 设置介绍文字
+    textBrowser->setText(tr("B2运动场。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -455,7 +457,7 @@ void MainWindow::on_btn21_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("D1,E1"));    // 设置介绍文字
+    textBrowser->setText(tr("D1,E1。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -472,7 +474,7 @@ void MainWindow::on_btn22_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("D3公共实验楼，E3图书馆"));    // 设置介绍文字
+    textBrowser->setText(tr("D3公共实验楼，E3图书馆。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -489,8 +491,8 @@ void MainWindow::on_btn23_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("A4："
-                            "A5校医院："));    // 设置介绍文字
+    textBrowser->setText(tr("A4。"
+                            "A5校医院。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -507,7 +509,7 @@ void MainWindow::on_btn24_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("D5餐厅"));    // 设置介绍文字
+    textBrowser->setText(tr("D5餐厅。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -524,7 +526,7 @@ void MainWindow::on_btn25_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("E5双创中心"));    // 设置介绍文字
+    textBrowser->setText(tr("E5双创中心。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -541,7 +543,7 @@ void MainWindow::on_btn26_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("体育馆："));    // 设置介绍文字
+    textBrowser->setText(tr("体育馆。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -558,7 +560,7 @@ void MainWindow::on_btn27_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("附属小学幼儿园"));    // 设置介绍文字
+    textBrowser->setText(tr("附属小学幼儿园。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -575,7 +577,7 @@ void MainWindow::on_btn28_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("F5书院区"));    // 设置介绍文字
+    textBrowser->setText(tr("F5书院区。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -592,7 +594,7 @@ void MainWindow::on_btn29_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("G5教师公寓"));    // 设置介绍文字
+    textBrowser->setText(tr("G5教师公寓。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -609,7 +611,7 @@ void MainWindow::on_btn30_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("F3"));    // 设置介绍文字
+    textBrowser->setText(tr("F3。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -626,7 +628,7 @@ void MainWindow::on_btn31_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("F1"));    // 设置介绍文字
+    textBrowser->setText(tr("F1。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -643,7 +645,7 @@ void MainWindow::on_btn32_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("G2,G3,G3餐厅"));    // 设置介绍文字
+    textBrowser->setText(tr("G2,G3,G3餐厅。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -660,7 +662,7 @@ void MainWindow::on_btn33_clicked()
 
     label->setPixmap(*img);
         // 设置介绍图片
-    textBrowser->setText(tr("G1"));    // 设置介绍文字
+    textBrowser->setText(tr("G1。"));    // 设置介绍文字
 
     infoWindow->exec();
 }
@@ -690,71 +692,82 @@ void MainWindow::on_CampusIntroBtn_clicked()
     infoWindow->exec();
 }
 
-// /**
-//  * @brief 图初始化函数
-//  * @return mgraph 地图数据结构
-//  */
-// mgraph initgraph()
-// {
-//     int i,j;
-//     mgraph c;
-//     c.vexnum=?????????;            // 顶点个数，即地点个数
-//     c.arcnum=?????????;            // 边的个数，即路径个数
+/**
+ * @brief 图初始化函数
+ * @return mgraph 地图数据结构
+ */
+mgraph initgraph()
+{
+    int i,j;
+    mgraph c;
+    c.vexnum=33;            // 顶点个数，即地点个数
+    //c.arcnum=?????????;            // 边的个数，即路径个数
 
-//     for(i=1; i<=key; i++)   // 依次设置顶点编号
-//     {
-//         c.vexs[i].position = i;
-//     }
+    for(i=1; i<=key; i++)   // 依次设置顶点编号
+    {
+        c.vexs[i].position = i;
+    }
 
-//     /* 依次输入顶点信息 */
-//     strcpy(c.vexs[1].name,"行政楼");
-//     strcpy(c.vexs[2].name,"第二行政办公区");
-//     strcpy(c.vexs[3].name,"第一教学楼");
-//     strcpy(c.vexs[4].name,"第二教学楼");
-//     strcpy(c.vexs[5].name,"第三教学楼");
-//     strcpy(c.vexs[6].name,"第四教学楼");
-//     strcpy(c.vexs[7].name,"第五教学楼");
-//     strcpy(c.vexs[8].name,"第六教学楼");
-//     strcpy(c.vexs[9].name,"艺术大楼");
-//     strcpy(c.vexs[10].name,"实训大楼");
-//     strcpy(c.vexs[11].name,"红砖楼");
-//     strcpy(c.vexs[12].name,"体育馆");
-//     strcpy(c.vexs[13].name,"图书馆");
-//     strcpy(c.vexs[14].name,"校史馆");
-//     strcpy(c.vexs[15].name,"学术交流中心");
-//     strcpy(c.vexs[16].name,"高水平运动中心");
-//     strcpy(c.vexs[17].name,"通用实验厂房");
-//     strcpy(c.vexs[18].name,"附属实验学校");
-//     strcpy(c.vexs[19].name,"xx苑");
-//     strcpy(c.vexs[20].name,"xx苑");
-//     strcpy(c.vexs[21].name,"xx苑");
-//     strcpy(c.vexs[22].name,"xx苑");
+    /* 依次输入顶点信息 */
+    strcpy(c.vexs[1].name,"");
+    strcpy(c.vexs[2].name,"");
+    strcpy(c.vexs[3].name,"");
+    strcpy(c.vexs[4].name,"");
+    strcpy(c.vexs[5].name,"");
+    strcpy(c.vexs[6].name,"");
+    strcpy(c.vexs[7].name,"");
+    strcpy(c.vexs[8].name,"");
+    strcpy(c.vexs[9].name,"");
+    strcpy(c.vexs[10].name,"");
+    strcpy(c.vexs[11].name,"");
+    strcpy(c.vexs[12].name,"");
+    strcpy(c.vexs[13].name,"");
+    strcpy(c.vexs[14].name,"");
+    strcpy(c.vexs[15].name,"");
+    strcpy(c.vexs[16].name,"");
+    strcpy(c.vexs[17].name,"");
+    strcpy(c.vexs[18].name,"");
+    strcpy(c.vexs[19].name,"");
+    strcpy(c.vexs[20].name,"");
+    strcpy(c.vexs[21].name,"");
+    strcpy(c.vexs[22].name,"");
+strcpy(c.vexs[23].name,"");
+    strcpy(c.vexs[24].name,"");
+    strcpy(c.vexs[25].name,"");
+    strcpy(c.vexs[26].name,"");
+    strcpy(c.vexs[27].name,"");
+    strcpy(c.vexs[28].name,"");
+    strcpy(c.vexs[29].name,"");
+    strcpy(c.vexs[30].name,"");
+    strcpy(c.vexs[31].name,"");
+    strcpy(c.vexs[32].name,"");
+    strcpy(c.vexs[33].name,"");
 
-//     for (i=1; i<=key; i++) {
-//         for (j=1;j<=key;j++) {
-//             c.arcs[i][j].adj=Infinity;  // 先初始化图的邻接矩阵
-//         }
+    for (i=1; i<=key; i++) {
+        for (j=1;j<=key;j++) {
+            c.arcs[i][j].adj=Infinity;  // 先初始化图的邻接矩阵
+        }
 
-//         c.arcs[1][2].adj=30;c.arcs[1][4].adj=30;c.arcs[1][19].adj=35;c.arcs[2][5].adj=5;c.arcs[3][5].adj=10;
-//         c.arcs[3][4].adj=10;c.arcs[3][11].adj=10;c.arcs[4][6].adj=15;c.arcs[5][12].adj=30;c.arcs[6][7].adj=55;
-//         c.arcs[6][15].adj=30;c.arcs[6][18].adj=15;c.arcs[6][22].adj=60;c.arcs[7][8].adj=30;c.arcs[7][13].adj=35;
-//         c.arcs[7][22].adj=40;c.arcs[8][13].adj=40;c.arcs[8][15].adj=35;c.arcs[8][20].adj=30;c.arcs[9][10].adj=20;
-//         c.arcs[9][13].adj=45;c.arcs[9][20].adj=60;c.arcs[10][17].adj=70;c.arcs[11][14].adj=10;c.arcs[12][20].adj=45;
-//         c.arcs[13][17].adj=35;c.arcs[14][15].adj=10;c.arcs[16][18].adj=10;c.arcs[16][19].adj=15;c.arcs[17][21].adj=55;
-//         c.arcs[21][22].adj=50;
-//     }
+        c.arcs[1][2].adj=30;c.arcs[1][4].adj=30;c.arcs[1][19].adj=35;c.arcs[2][5].adj=5;c.arcs[3][5].adj=10;
+        c.arcs[3][4].adj=10;c.arcs[3][11].adj=10;c.arcs[4][6].adj=15;c.arcs[5][12].adj=30;c.arcs[6][7].adj=55;
+        c.arcs[6][15].adj=30;c.arcs[6][18].adj=15;c.arcs[6][22].adj=60;c.arcs[7][8].adj=30;c.arcs[7][13].adj=35;
+        c.arcs[7][22].adj=40;c.arcs[8][13].adj=40;c.arcs[8][15].adj=35;c.arcs[8][20].adj=30;c.arcs[9][10].adj=20;
+        c.arcs[9][13].adj=45;c.arcs[9][20].adj=60;c.arcs[10][17].adj=70;c.arcs[11][14].adj=10;c.arcs[12][20].adj=45;
+        c.arcs[13][17].adj=35;c.arcs[14][15].adj=10;c.arcs[16][18].adj=10;c.arcs[16][19].adj=15;c.arcs[17][21].adj=55;
+        c.arcs[21][22].adj=50;
+    }
 
-//     /* 邻接矩阵是对称矩阵，对称赋值(无向图需要对称赋值) */
-//     for(i=1;i<=key;i++)
-//     {
-//         for(j=1;j<=key;j++)
-//         {
-//             c.arcs[j][i].adj=c.arcs[i][j].adj;
-//         }
-//     }
+    /* 邻接矩阵是对称矩阵，对称赋值(无向图需要对称赋值) */
+    for(i=1;i<=key;i++)
+    {
+        for(j=1;j<=key;j++)
+        {
+            c.arcs[j][i].adj=c.arcs[i][j].adj;
+        }
+    }
 
-//     return c;
-// }
+    return c;
+}
 
 
 /**
