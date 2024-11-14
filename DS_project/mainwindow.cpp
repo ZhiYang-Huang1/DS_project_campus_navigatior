@@ -22,8 +22,8 @@ void path(mgraph c,int m,int n,int k);
 QString transtring;
 
 mgraph campus;  // 图变量（校园）
-int d[30];
-int visited[30];
+int d[40];
+int visited[40];
 int shortest[MaxVertexNum][MaxVertexNum];   // 定义全局变量存储最小路径
 int pathh[MaxVertexNum][MaxVertexNum];      // 定义存储路径
 
@@ -35,6 +35,16 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     initUI();
+
+    campus = initgraph();
+
+    /* 使用正则表达式，限制用户输入 */
+    QRegularExpression regx("\\d{2}");
+    QValidator* validator = new QRegularExpressionValidator(regx, this);
+
+    ui->setupUi(this);
+    ui->departureEdit->setValidator(validator);
+    ui->destinationEdit->setValidator(validator);
 }
 
 MainWindow::~MainWindow()
@@ -50,7 +60,6 @@ void MainWindow::initUI()
     ui->CB_departure->addItem("国际校区(17-33)");
     ui->CB_destination->addItem("大学城校区(1-16)");
     ui->CB_destination->addItem("国际校区(17-33)");
-
 
 }
 
@@ -980,7 +989,7 @@ void MainWindow::on_searchRouteBtn_clicked()
 
         ui->textBrowser_2->clear();                   // 清除浏览框里的文本
 
-        if ((start > 0 and start < 23) and (end > 0 and end < 23)) {
+        if ((start > 0 and start < 34) and (end > 0 and end < 34)) {
             allpath(campus, start, end);    // 可选路径搜索
         }
 }
@@ -995,7 +1004,7 @@ void MainWindow::on_seachShortestBtn_clicked()
 
         ui->textBrowser_2->clear();                  // 清除浏览框里的文本
 
-        if ((start > 0 and start < 23) and (end > 0 and end < 23)) {
+        if ((start > 0 and start < 34) and (end > 0 and end < 34)) {
             shortdistance(campus, start, end);
 }
 }
