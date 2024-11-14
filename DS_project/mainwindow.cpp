@@ -701,7 +701,7 @@ mgraph initgraph()
     int i,j;
     mgraph c;
     c.vexnum=33;            // 顶点个数，即地点个数
-    //c.arcnum=?????????;            // 边的个数，即路径个数
+    c.arcnum=66;            // 边的个数，即路径个数
 
     for(i=1; i<=key; i++)   // 依次设置顶点编号
     {
@@ -749,9 +749,9 @@ mgraph initgraph()
         }
 
         c.arcs[1][3].adj=560;
-            c.arcs[1][2].adj=578;
+        c.arcs[1][2].adj=578;
         c.arcs[1][4].adj=573;
-            c.arcs[2][4].adj=400;
+        c.arcs[2][4].adj=400;
         c.arcs[2][5].adj=496;
         c.arcs[3][4].adj=894;
         c.arcs[3][10].adj=1460;
