@@ -37,14 +37,6 @@ MainWindow::MainWindow(QWidget *parent)
     initUI();
 
     campus = initgraph();
-
-    /* 使用正则表达式，限制用户输入 */
-    QRegularExpression regx("\\d{2}");
-    QValidator* validator = new QRegularExpressionValidator(regx, this);
-
-    ui->setupUi(this);
-    ui->departureEdit->setValidator(validator);
-    ui->destinationEdit->setValidator(validator);
 }
 
 MainWindow::~MainWindow()
